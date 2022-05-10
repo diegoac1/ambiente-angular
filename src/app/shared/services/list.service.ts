@@ -12,8 +12,8 @@ export type ApiResponse = [
 })
 export class ListService {
 
-  apiURL = 'https://rickandmortyapi.com/api/character';
-
+  //apiURL = 'https://rickandmortyapi.com/api/character';
+  apiURL = 'http://localhost:8080/api/personagens';
 
   constructor(private httpClient: HttpClient) { }
 
